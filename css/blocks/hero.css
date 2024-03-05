@@ -4,15 +4,17 @@
 }
 
 .header {
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .header__btn {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  gap: 15px;
 }
 
 .nav__list {
@@ -44,13 +46,20 @@
   display: none;
 }
 
-.hero__pic {
-  min-width: 100%;
-}
-
 .hero__content {
   display: flex;
   flex: 1;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+}
+
+.hero__text {
+  margin-left: 15px;
+}
+
+.hero__description-title {
+  font-family: "Lifehack Medium";
+  font-size: 65px;
+  margin-bottom: 20px;
+  color: #fff;
 }

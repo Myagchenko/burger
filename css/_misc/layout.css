@@ -19,10 +19,17 @@ body {
 
 .container {
   width: 100%;
-  min-width: 940px;
+  max-width: 940px;
   margin: 0 auto;
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;
+}
+
+.section__title {
+  font-family: "Gagalin-Regular";
+  font-size: 72px;
+  margin-bottom: 15px;
+  color: #e7b247;
 }
 
 h1,

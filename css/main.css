@@ -79,14 +79,14 @@ footer {
 @font-face {
   font-family: "Gagalin-Regular";
   src: url(../fonts/Gagalin-Regular.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
 }
 @font-face {
   font-family: "Lifehack Medium";
   src: url(../fonts/Lifehack-Medium.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu Light";
+  src: url(../fonts/Ubuntu-Light.woff) format("woff");
 }
 .hero {
   background: url("../img/section-bg/hero-bg.jpg");
@@ -152,6 +152,57 @@ footer {
   font-size: 65px;
   margin-bottom: 20px;
   color: #fff;
+}
+
+.best {
+  background: url("../img/section-bg/best-bg.jpg");
+  background-size: cover;
+}
+
+.best__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best__list {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.best__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+
+.best__pic {
+  margin-bottom: 30px;
+  height: 100px;
+}
+
+.best__text {
+  text-align: center;
+}
+
+.best__title {
+  margin-bottom: 25px;
+  font-family: "Lifehack Medium";
+  font-size: 24px;
+}
+
+.best__description {
+  font-family: "Ubuntu Light";
+  font-size: 14px;
+}
+
+.section__title-color__black {
+  color: #333537;
+  margin-bottom: 60px;
+  margin-top: 140px;
 }
 
 .btn {

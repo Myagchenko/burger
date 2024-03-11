@@ -1,49 +1,53 @@
 .best{
     background: url('../img/section-bg/best-bg.jpg');
     background-size: cover;
-}
 
-.best__content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.best__list{
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
-}
+    &__list{
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+    }
 
-.best__item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 33%;
-}
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+    }
+    
+    &__pic{
+        margin-bottom: 30px;
+        height: 100px;
+    }
 
-.best__pic{
-    margin-bottom: 30px;
-    height: 100px;
-}
+    &__text{
+        text-align: center;
+    }
 
-.best__text{
-    text-align: center;
-}
-
-.best__title{
-    margin-bottom: 25px;
-    font-family: "Lifehack Medium";
-    font-size: 24px;
-}
-
-.best__description{
-    font-family: 'Ubuntu Light';
-    font-size: 14px;
+    &__title{
+        margin-bottom: 25px;
+        font-family: "Lifehack Medium";
+        font-size: 24px;
+    }
+    
+    &__description{
+        font-family: 'Ubuntu Light';
+        font-size: 14px;
+    }
 }
 
 .section__title-color__black{
-    color: #333537;
+    color: $gray;
     margin-bottom: 60px;
     margin-top: 140px;
 }
+
+
+
+

@@ -23,7 +23,7 @@
   width: 33%;
 }
 
-.best__pic {
+.best__pic-svg {
   margin-bottom: 30px;
   height: 100px;
 }
@@ -43,7 +43,7 @@
   font-size: 14px;
 }
 
-.section__title-color__black {
+.section__title--black {
   color: #333537;
   margin-bottom: 60px;
   margin-top: 140px;

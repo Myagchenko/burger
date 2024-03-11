@@ -9,58 +9,65 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-}
-
-.header__btn{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.nav__list{
-    display: flex;
-    align-items: center;
-}
-
-.nav__link{
-    color: #fff;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.nav__items{
-    display: flex;
-    align-items: center;
-    &:before{
-        content: "";
-        width: 4px;
-        height: 4px;
-        border-radius: 50%;
-        background:#fff ;
-        display: block;
-        margin: 0 15px;
+    &__btn{
+        display: flex;
+        align-items: center;
+        gap: 15px;
     }
-    &:first-child{
-        &::before{
-            display: none;
+}
+
+.nav{
+
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+
+    &__link{
+        color: $white;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    &__items{
+        display: flex;
+        align-items: center;
+
+        &:before{
+            content: "";
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: $white ;
+            display: block;
+            margin: 0 15px;
+        }
+
+        &:first-child{
+            &::before{
+                display: none;
+            }
         }
     }
 }
 
-.hero__content{
-    display: flex;
-    flex: 1;
-    align-items: flex-end;
-    justify-content: center;
-}
+.hero{
+    &__content{
+        display: flex;
+        flex: 1;
+        align-items: flex-end;
+        justify-content: center;
+    }
 
-.hero__text{
-    margin-left: 15px; ;
-}
-.hero__description-title{
-    font-family: "Lifehack Medium";
-    font-size: 65px;
-    margin-bottom: 20px;
-    color: #fff;
+    &__text{
+        margin-left: 15px; ;
+    }
+
+    &__description-title{
+        font-family: "Lifehack Medium";
+        font-size: 65px;
+        margin-bottom: 20px;
+        color: $white;
+    }
 }

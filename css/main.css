@@ -100,7 +100,6 @@ footer {
   justify-content: space-between;
   flex-wrap: nowrap;
 }
-
 .header__btn {
   display: flex;
   align-items: center;
@@ -111,14 +110,12 @@ footer {
   display: flex;
   align-items: center;
 }
-
 .nav__link {
   color: #fff;
   font-size: 13px;
   text-transform: uppercase;
   text-decoration: none;
 }
-
 .nav__items {
   display: flex;
   align-items: center;
@@ -142,11 +139,9 @@ footer {
   align-items: flex-end;
   justify-content: center;
 }
-
 .hero__text {
   margin-left: 15px;
 }
-
 .hero__description-title {
   font-family: "Lifehack Medium";
   font-size: 65px;

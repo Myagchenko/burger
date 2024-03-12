@@ -6,3 +6,11 @@
   display: flex;
   flex-direction: row;
 }
+.burgers__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.burgers__item {
+  width: 50%;
+}

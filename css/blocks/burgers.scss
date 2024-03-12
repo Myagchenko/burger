@@ -1,9 +1,53 @@
+
 .burgers{
     background: url('../img/section-bg/burgers-scroll-bg.jpg');
     block-size: cover;
+    
+    &__container--align-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        max-width: 90%;
+    }
 
     &__content{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+    }
+    
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: row;
+        column-gap: 15px;
+    }
+    
+    &__item{
+        width: 50%;
+    }
+    
+    &__pic{
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+    }
+
+    &__pic-png{
+        justify-content: start;
+    }
+    
+    &__{
+
     }
 }
+
+.section__title-color__white{
+    color: $white;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+

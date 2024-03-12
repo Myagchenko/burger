@@ -153,42 +153,35 @@ footer {
   background: url("../img/section-bg/best-bg.jpg");
   background-size: cover;
 }
-
 .best__content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .best__list {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-
 .best__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 33%;
 }
-
 .best__pic {
   margin-bottom: 30px;
   height: 100px;
 }
-
 .best__text {
   text-align: center;
 }
-
 .best__title {
   margin-bottom: 25px;
   font-family: "Lifehack Medium";
   font-size: 24px;
 }
-
 .best__description {
   font-family: "Ubuntu Light";
   font-size: 14px;
@@ -198,6 +191,15 @@ footer {
   color: #333537;
   margin-bottom: 60px;
   margin-top: 140px;
+}
+
+.burgers {
+  background: url("../img/section-bg/burgers-scroll-bg.jpg");
+  block-size: cover;
+}
+.burgers__content {
+  display: flex;
+  flex-direction: row;
 }
 
 .btn {

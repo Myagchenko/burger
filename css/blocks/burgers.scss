@@ -1,0 +1,9 @@
+.burgers{
+    background: url('../img/section-bg/burgers-scroll-bg.jpg');
+    block-size: cover;
+
+    &__content{
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,16 +1,24 @@
 .burgers {
   background: url("../img/section-bg/burgers-scroll-bg.jpg");
-  block-size: cover;
+  background-size: cover;
 }
-.burgers__content {
+.burgers__container--align-items {
   display: flex;
-  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
 }
 .burgers__list {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 1154px;
 }
 .burgers__item {
   width: 50%;
+}
+.burgers__pic {
+  display: flex;
+  justify-content: center;
+  height: 400px;
 }

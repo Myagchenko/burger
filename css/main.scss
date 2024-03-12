@@ -3,12 +3,13 @@
 @import "_misc/layout.scss";
 @import "_misc/fonts.scss";
 
+//common blocks
+@import "blocks/common.scss";
+
+
 //blocks
 @import "blocks/hero.scss";
 @import "blocks/best.scss";
 @import "blocks/burgers.scss";
-
-//common blocks
-@import "blocks/common.scss";
 
 

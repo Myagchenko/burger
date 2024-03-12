@@ -2,16 +2,16 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/main.css">
-	<title>Burger</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Burger</title>
 
 </head>
 
 <body>
-	<div class="wrapper">
-		<section class="section hero">
+  <div class="wrapper">
+    <section class="section hero">
       <div class="container">
         <header class="header">
           <a class="logo">
@@ -59,9 +59,9 @@
     </section>
 
     <section class="section best">
-      <div class="container">
+      <div class="container best__container">
         <div class="best__content">
-          <h2 class="section__title section__title-color__black">мы лучшие</h2>
+          <h2 class="section__title section__title--black">мы лучшие</h2>
           <ul class="best__list">
             <li class="best__item">
               <div class="best__pic">
@@ -84,7 +84,8 @@
                 <div class="best__title">Ручная сборка</div>
                 <div class="best__description">
                   <p>
-                    Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.
+                    Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие
+                    притягивает сюжетный реформаторский пафос.
                   </p>
                 </div>
               </div>
@@ -112,22 +113,35 @@
         <div class="burgers__content">
           <ul class="burgers__list">
             <li class="burgers__item">
+              <div class="burgers__icon">
+                <img src="/img/icons/burger.svg" alt="#" class="burgers__icon-svg">
+                <div class="burgers__structure">состав</div>
+              </div>
+              <div class="burgers__kkal">
+                <img src="/img/icons/kkal.svg" alt="#" class="burgers__kkal-svg">
+                <div class="burgers__weight">1200</div>
+                <div class="burgers__calories">ккал</div>
+              </div>
               <div class="burgers__pic">
                 <img src="/img/burgers/burgers-scroll-burger.png" alt="#" class="burgers__pic-png">
               </div>
             </li>
-            <li class="burgers__text">
-              <h2 class="section__title section__title-color__white">DARK BEEF BURGER</h2>
-              <p burgers__description>Ваш старый добрый знакомый, с рубленым бифштексом из 100% 
-                говядины, тремя кусочками нежнейшего сыра эмменталь, двумя 
-                помидорами, луком, салатом и соусом гриль теперь с добавлением 
+            <li class="burgers__item">
+              <h2 class="section__title section__title--white">DARK BEEF BURGER</h2>
+              <div class="burgers__description">
+              <p>
+                Ваш старый добрый знакомый, с рубленым бифштексом из 100%
+                говядины, тремя кусочками нежнейшего сыра эмменталь, двумя
+                помидорами, луком, салатом и соусом гриль теперь с добавлением
                 экзотического соуса чураско.
               </p>
+              </div>
               <div class="burgers__info">
                 <div class="burgers__price">
-                  <span>500 рублей</span>
+                  <span class="burgers__price-span">500</span>
+                  рублей
                 </div>
-                <a href="#" class="btn">заказать</a>
+                <a href="#" class="btn burgers__btn--margin">заказать</a>
               </div>
             </li>
           </ul>
@@ -139,8 +153,8 @@
     <section class="section"></section>
     <section class="section"></section>
     <section class="section"></section>
-		<ul class="fixed-menu"></ul>
-	</div>
+    <ul class="fixed-menu"></ul>
+  </div>
 </body>
 
 

@@ -1,36 +1,36 @@
 html,
-body{
-    height: 100%;
+body {
+	height: 100%;
 }
 
-body{
-    font-size: 16px;
-    line-height: 1.42;
-    position: relative;
+body {
+	font-size: 16px;
+	line-height: 1.42;
+	position: relative;
 }
 
-.wrapper{
-    position: relative;
-    width: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    overflow: hidden;
+.wrapper {
+	position: relative;
+	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	overflow: hidden;
 }
 
-.container{
-    width: 100%;
-    max-width: 940px;
-    margin: 0 auto;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
+.container {
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
 }
 
-.section__title{
-    font-family: "Gagalin-Regular";
-    font-size: 72px;
-    margin-bottom: 15px;
-    color: $yellow;
+.section__title {
+	font-family: "Gagalin-Regular";
+	font-size: 72px;
+	margin-bottom: 15px;
+	color: $yellow;
 }
 
 //tag styles reset
@@ -39,41 +39,42 @@ h2,
 h3,
 h4,
 h5,
-h6{
-    margin-top: 0;
-    font-weight: 0;
+h6 {
+	margin-top: 0;
+	font-weight: 0;
 }
 
-table{
-    border-collapse: collapse;
-    border-spacing: 0;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-ul{
-    padding: 0;
-    margin: 0;
-    li{
-        list-style: none;
-    }
+ul {
+	padding: 0;
+	margin: 0;
+
+	li {
+		list-style: none;
+	}
 }
 
-p{
-    padding: 0;
-    margin: 0;
+p {
+	padding: 0;
+	margin: 0;
 }
 
-footer{
-    position: relative;
-    width: 100%;
+footer {
+	position: relative;
+	width: 100%;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.section{
-    height: 100vh;
-    min-height: 650px;
+.section {
+	height: 100vh;
+	min-height: 650px;
 }

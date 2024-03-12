@@ -1,53 +1,111 @@
+.burgers {
+	background: url('../img/section-bg/burgers-scroll-bg.jpg');
+	background-size: cover;
 
-.burgers{
-    background: url('../img/section-bg/burgers-scroll-bg.jpg');
-    block-size: cover;
-    
-    &__container--align-items{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        max-width: 90%;
-    }
+	&__container{
+		&--align-items{
+			display: flex;
+			max-width: 100%;
+			justify-content: center;
+		}
+	}
 
-    &__content{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 80%;
-    }
-    
-    &__list{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        column-gap: 15px;
-    }
-    
-    &__item{
-        width: 50%;
-    }
-    
-    &__pic{
-        height: 100%;
-        width: 100%;
-        background-size: contain;
-    }
+	&__list{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 1154px;
+	}
 
-    &__pic-png{
-        justify-content: start;
-    }
-    
-    &__{
+	&__item{
+		width: 50%;
+	}
+	
+	&__icon{
+		display: flex;
+		flex-direction: column;
+		width: 90px;
+		height: 90px;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		border-radius: 5px;
+		background-color: rgba(227, 80, 40, 0.4);
+		color: $white;
+		font-family: "Gagalin-Regular";
+	}
+	
+	&__icon-svg{
+		width: 50px;
+		height: 50px;
+	}
 
-    }
+	&__kkal{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: absolute;
+		opacity: 0.5;
+		color: $white;
+		width: 70px;
+		height: 80px;
+		padding-top: 350px;
+	}
+
+	&__weight{
+		position: absolute;
+		padding-top: 25px;
+		font-family: "Gagalin-Regular";
+		font-size: 20px;
+	}
+
+	&__calories{
+		font-family: "Gagalin-Regular";
+		font-size: 18px;
+	}
+
+	&__pic{
+		display: flex;
+		justify-content: center;
+		height: 400px;
+	}
+	
+	&__pic-png{
+		margin-right: 20px;
+	}
+
+	&__description{
+		color: $white;
+		font-size: 18px;
+	}
+
+	&__info{
+		display: flex;
+		flex-direction: row;
+		column-gap: 30px
+	}
+
+	&__price{
+		font-family: "Gagalin-Regular";
+		margin-right: 10px;
+		color: $red;
+		font-size: 30px;
+	}
+
+	&__price-span{
+		font-size: 72px;
+	}
+
+	&__value-span{
+		font-size: 30px;
+	}
+
+	&__btn--margin{
+		margin-top: 50px;
+	}
+
+	.section__title--white{
+		line-height: normal;
+		color: $white;
+	}
 }
-
-.section__title-color__white{
-    color: $white;
-    line-height: 70px;
-    margin-bottom: 50px;
-}
-

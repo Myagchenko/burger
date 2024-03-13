@@ -203,10 +203,9 @@ footer {
   align-items: center;
   width: 33%;
 }
+
 .best__pic {
   display: flex;
-}
-.best__pic {
   margin-bottom: 30px;
   height: 100px;
 }

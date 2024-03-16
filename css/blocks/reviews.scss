@@ -1,18 +1,14 @@
-.reviews{
+.reviews {
+  $root: '.reviews';
 
-  &__table{
-    width: 100%;
-    height: 100%;
-  }
-
-  &__wrap{
+  &__wrap {
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
   }
 
-  &__item{
+  &__item {
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -22,15 +18,15 @@
     background-position: center center;
     position: relative;
 
-    &:hover{
-      .reviews__content{
+    &:hover {
+      #{$root}__content {
         opacity: 1;
         transform: scale(1);
       }
     }
   }
-  
-  &__content{
+
+  &__content {
     position: absolute;
     display: none;
     width: 100%;
@@ -43,28 +39,27 @@
     right: 0;
     bottom: 0;
     opacity: 0;
-    transition: 0.8s;
+    transition: 0.3s opacity ease-in-out, 0.3s transform ease-in-out;
     transform: scale(.8);
     color: #fff;
   }
 
-  &__name{
+  &__name {
     margin-bottom: 25px;
     font-family: "Gagalin-Regular";
     line-height: normal;
     font-size: 16px;
   }
 
-  &__opinion{
-    font-family: "Ubuntu-Light";
-    line-height: 30px;
+  &__opinion {
+    font-family: "Ubuntu";
+    line-height: 24px;
     margin-bottom: 20px;
   }
 
-}
-
-.reviews__btn{
-  width: 110px;
-  background: #333537;
-  font-family: "Ubuntu-Light";
+  &__btn {
+    width: 110px;
+    background: #333537;
+    font-family: "Ubuntu";
+  }
 }

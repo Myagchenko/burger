@@ -7,8 +7,18 @@
   src: url(../fonts/Lifehack-Medium.woff) format("woff");
 }
 @font-face {
-  font-family: "Ubuntu Light";
+  font-family: "Ubuntu";
+  src: url(../fonts/Ubuntu-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: lighter;
   src: url(../fonts/Ubuntu-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  src: url(../fonts/Ubuntu-B.ttf) format("truetype");
 }
 html,
 body {
@@ -86,6 +96,11 @@ footer {
 .section {
   height: 100vh;
   min-height: 650px;
+}
+
+button {
+  outline: none;
+  border: 0;
 }
 
 .btn {
@@ -210,10 +225,6 @@ footer {
   margin-bottom: 60px;
 }
 
-.reviews__table {
-  width: 100%;
-  height: 100%;
-}
 .reviews__wrap {
   width: 100%;
   height: 100%;
@@ -247,7 +258,7 @@ footer {
   right: 0;
   bottom: 0;
   opacity: 0;
-  transition: 0.8s;
+  transition: 0.3s opacity ease-in-out, 0.3s transform ease-in-out;
   transform: scale(0.8);
   color: #fff;
 }
@@ -258,13 +269,12 @@ footer {
   font-size: 16px;
 }
 .reviews__opinion {
-  font-family: "Ubuntu-Light";
-  line-height: 30px;
+  font-family: "Ubuntu";
+  line-height: 24px;
   margin-bottom: 20px;
 }
-
 .reviews__btn {
   width: 110px;
   background: #333537;
-  font-family: "Ubuntu-Light";
+  font-family: "Ubuntu";
 }

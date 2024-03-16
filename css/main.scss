@@ -1,11 +1,13 @@
 //setups
-@import "_misc/layout.scss";
 @import "_misc/fonts.scss";
+@import "_misc/layout.scss";
+
+//common blocks
+@import "blocks/common.scss";
 
 //blocks
 @import "blocks/hero.scss";
 @import "blocks/best.scss";
+@import "blocks/reviews.scss";
 
-//common blocks
-@import "blocks/common.scss";
 

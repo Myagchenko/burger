@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Gagalin-Regular";
+  src: url(../fonts/Gagalin-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Lifehack Medium";
+  src: url(../fonts/Lifehack-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url(../fonts/Ubuntu-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: lighter;
+  src: url(../fonts/Ubuntu-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  src: url(../fonts/Ubuntu-B.ttf) format("truetype");
+}
 html,
 body {
   height: 100%;
@@ -76,18 +98,22 @@ footer {
   min-height: 650px;
 }
 
-@font-face {
-  font-family: "Gagalin-Regular";
-  src: url(../fonts/Gagalin-Regular.woff) format("woff");
+button {
+  outline: none;
+  border: 0;
 }
-@font-face {
-  font-family: "Lifehack Medium";
-  src: url(../fonts/Lifehack-Medium.woff) format("woff");
+
+.btn {
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+  background: #c7512e;
+  display: inline-block;
+  border-radius: 3px;
 }
-@font-face {
-  font-family: "Ubuntu Light";
-  src: url(../fonts/Ubuntu-Light.woff) format("woff");
-}
+
 .hero {
   background: url("../img/section-bg/hero-bg.jpg");
   background-size: cover;
@@ -158,60 +184,97 @@ footer {
   background: url("../img/section-bg/best-bg.jpg");
   background-size: cover;
 }
-
 .best__content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
-
 .best__list {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-
 .best__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 33%;
 }
-
 .best__pic-svg {
   margin-bottom: 30px;
   height: 100px;
 }
-
 .best__text {
   text-align: center;
 }
-
 .best__title {
   margin-bottom: 25px;
   font-family: "Lifehack Medium";
   font-size: 24px;
 }
-
 .best__description {
   font-family: "Ubuntu Light";
   font-size: 14px;
 }
-
-.section__title--black {
+.best .section__title--black {
   color: #333537;
   margin-bottom: 60px;
-  margin-top: 140px;
 }
 
-.btn {
-  padding: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 13px;
+.reviews__wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reviews__item {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.reviews__item:hover .reviews__content {
+  opacity: 1;
+  transform: scale(1);
+}
+.reviews__content {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s opacity ease-in-out, 0.3s transform ease-in-out;
+  transform: scale(0.8);
   color: #fff;
-  background: #c7512e;
-  display: inline-block;
-  border-radius: 3px;
+}
+.reviews__name {
+  margin-bottom: 25px;
+  font-family: "Gagalin-Regular";
+  line-height: normal;
+  font-size: 16px;
+}
+.reviews__opinion {
+  font-family: "Ubuntu";
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.reviews__btn {
+  width: 110px;
+  background: #333537;
+  font-family: "Ubuntu";
 }

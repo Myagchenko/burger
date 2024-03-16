@@ -1,0 +1,71 @@
+.team {
+  $root: '.team';
+
+  background: url(../img/section-bg/team-bg.png);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+
+  &__wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba($color: #333537, $alpha: 0.93);
+    padding: 115px 140px 0px 100px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    padding: 10px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+
+    &.is-active {
+      #{$root}__item-content {
+        display: flex;
+      }
+
+    }
+  }
+
+  &__item-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: "Gagalin-Regular";
+    background: none;
+    border: 0;
+    padding: 0;
+    text-align: left;
+    color: #e7b247;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  &__item-content {
+    display: none;
+    flex-direction: row;
+    column-gap: 20px;
+  }
+
+  &__item-description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+}

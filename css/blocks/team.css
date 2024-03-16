@@ -1,0 +1,59 @@
+.team {
+  background: url(../img/section-bg/team-bg.png);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.team__wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(51, 53, 55, 0.93);
+  padding: 115px 140px 0px 100px;
+}
+.team__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  padding: 10px;
+}
+.team__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+}
+.team__item.is-active .team__item-content {
+  display: flex;
+}
+.team__item-title {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: "Gagalin-Regular";
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  color: #e7b247;
+  font-size: 14px;
+  line-height: 28px;
+}
+.team__item-content {
+  display: none;
+  flex-direction: row;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.team__item-description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 14px;
+  line-height: 24px;
+}

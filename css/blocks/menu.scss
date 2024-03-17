@@ -1,0 +1,60 @@
+.menu{
+  $root: '.menu';
+  background: url(../img/section-bg/menu-bg.jpg);
+  background-size: cover;
+
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__title{
+    margin-left: 95px;
+    margin-top: 110px;
+  }
+  
+  &__list{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    left: 0;
+  }
+  
+  &__item{
+    display: flex;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    &.is-active{
+      #{$root}__item-title{
+        color:#e7b247;
+      }
+      #{$root}__content{
+        display: flex;
+      }
+    }
+  }
+
+  &__item-title{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: "Gagalin-Regular";
+    height: 100%;
+    font-size: 40px;
+    line-height: 80px;
+    padding-top: 30px;
+    color:#fff;
+  }
+
+  &__content{
+    display: none;
+    background: rgba(#333537, .93);
+    padding: 50px 30px;
+    font-family: 'Ubuntu';
+    max-width: 500px;
+    color:#fff;
+  }
+
+}

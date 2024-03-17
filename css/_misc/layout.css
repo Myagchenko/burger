@@ -32,6 +32,10 @@ body {
   color: #e7b247;
 }
 
+.section__title--white {
+  color: #fff;
+}
+
 h1,
 h2,
 h3,

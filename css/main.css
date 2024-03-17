@@ -20,6 +20,10 @@
   font-weight: bold;
   src: url(../fonts/Ubuntu-B.ttf) format("truetype");
 }
+.section__title--white {
+  color: #fff;
+}
+
 html,
 body {
   height: 100%;
@@ -52,10 +56,6 @@ body {
   font-size: 72px;
   margin-bottom: 15px;
   color: #e7b247;
-}
-
-.section__title--white {
-  color: #fff;
 }
 
 h1,
@@ -346,8 +346,6 @@ button {
 .menu {
   background: url(../img/section-bg/menu-bg.jpg);
   background-size: cover;
-}
-.menu__wrap {
   display: flex;
   justify-content: space-between;
   width: 100%;

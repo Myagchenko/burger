@@ -1,8 +1,6 @@
 .menu {
   background: url(../img/section-bg/menu-bg.jpg);
   background-size: cover;
-}
-.menu__wrap {
   display: flex;
   justify-content: space-between;
   width: 100%;

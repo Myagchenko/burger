@@ -1,0 +1,59 @@
+.map{
+  background: url(../img/section-bg/map-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+  &__footer{
+    display: flex;
+    align-items: end;
+    margin-top: 585px;
+    position: absolute;
+    height: 65px;
+    width: 100%;
+    background: rgba(0,0,0,1);
+  }
+
+  &__list{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__adress{
+    color: #fff;
+  }
+
+
+  &__number{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+
+  &__text{
+    color: #c7512e;
+    font-family: 'Ubuntu';
+  }
+  
+  &__icons{
+    display: flex;
+    column-gap: 20px;
+    justify-content: end;
+  }
+
+  &__pic-svg{
+    opacity: 0.4;
+    width: 25px;
+    height: 25px;
+  }
+}

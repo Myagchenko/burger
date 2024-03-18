@@ -21,7 +21,6 @@ body {
   width: 100%;
   max-width: 940px;
   margin: 0 auto;
-  flex-direction: column;
   height: 100%;
 }
 

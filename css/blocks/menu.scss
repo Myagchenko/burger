@@ -10,9 +10,11 @@
   &__title{
     margin-left: 95px;
     margin-top: 110px;
+    color: #fff;
   }
   
   &__list{
+    position: relative;
     display: flex;
     flex-direction: row;
     height: 100%;

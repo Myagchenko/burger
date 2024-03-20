@@ -13,18 +13,17 @@
   display: flex;
   justify-content: center;
 }
-.delivery__content {
+.delivery .form {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-.delivery .form {
+.delivery .form__column {
   color: #fff;
   width: 50%;
 }
 .delivery .form__row {
   display: flex;
-  width: 100%;
   -moz-column-gap: 20px;
        column-gap: 20px;
   margin-bottom: 20px;

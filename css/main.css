@@ -24,6 +24,10 @@
   color: #fff;
 }
 
+.section__title--white {
+  color: #fff;
+}
+
 html,
 body {
   height: 100%;

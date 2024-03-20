@@ -581,11 +581,14 @@ button {
   height: 100%;
   display: flex;
   justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 .footer__item {
   display: flex;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+}
+.footer__item:hover {
+  opacity: 0.6;
 }
 .footer__adress {
   font-family: "Ubuntu";
@@ -597,7 +600,4 @@ button {
   width: 25px;
   height: 25px;
   opacity: 1;
-}
-.footer__icons-svg:hover {
-  opacity: 0.6;
 }

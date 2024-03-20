@@ -1,10 +1,32 @@
 .footer{
   background: black;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
   &__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &__info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__number{
+    display: flex;
+    column-gap: 10px
+  }
+
+  &__phone{
+    color: #c7512e;
+    font-family: 'Ubuntu';
+    font-weight: bold;
   }
 
   &__list{
@@ -22,12 +44,17 @@
     font-family: 'Ubuntu';
     font-weight: lighter;
     color: #fff;
-    margin-bottom: 10px
+    margin-bottom: 5px
   }
 
   &__icons-svg{
     width: 25px;
     height: 25px;
+    opacity: 1;
+  }
+
+  &__icons-svg:hover{
+    opacity: .6;
   }
 
 }

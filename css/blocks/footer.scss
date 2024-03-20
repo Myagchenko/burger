@@ -1,11 +1,11 @@
-.footer{
+.footer {
   background: black;
   width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
 
-  &__container{
+  &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,48 +13,49 @@
     padding-bottom: 10px;
   }
 
-  &__info{
+  &__info {
     display: flex;
     flex-direction: column;
   }
 
-  &__number{
+  &__number {
     display: flex;
     column-gap: 10px
   }
 
-  &__phone{
+  &__phone {
     color: #c7512e;
     font-family: 'Ubuntu';
     font-weight: bold;
   }
 
-  &__list{
+  &__list {
     height: 100%;
     display: flex;
     justify-content: center;
-  }
-
-  &__item{
-    display: flex;
     column-gap: 20px;
   }
 
-  &__adress{
+  &__item {
+    display: flex;
+  }
+
+  &__item:hover {
+    opacity: .6;
+  }
+
+  &__adress {
     font-family: 'Ubuntu';
     font-weight: lighter;
     color: #fff;
     margin-bottom: 5px
   }
 
-  &__icons-svg{
+  &__icons-svg {
     width: 25px;
     height: 25px;
     opacity: 1;
   }
 
-  &__icons-svg:hover{
-    opacity: .6;
-  }
 
 }

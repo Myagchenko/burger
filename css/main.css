@@ -350,6 +350,7 @@ button {
 .map {
   background: url(../img/section-bg/map-bg.jpg);
   background-size: cover;
+  position: relative;
 }
 .map__pic {
   width: 100%;
@@ -551,10 +552,30 @@ button {
 .footer {
   background: black;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .footer__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+}
+.footer__number {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.footer__phone {
+  color: #c7512e;
+  font-family: "Ubuntu";
+  font-weight: bold;
 }
 .footer__list {
   height: 100%;
@@ -570,9 +591,13 @@ button {
   font-family: "Ubuntu";
   font-weight: lighter;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .footer__icons-svg {
   width: 25px;
   height: 25px;
+  opacity: 1;
+}
+.footer__icons-svg:hover {
+  opacity: 0.6;
 }

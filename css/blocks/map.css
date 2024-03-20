@@ -1,6 +1,7 @@
 .map {
   background: url(../img/section-bg/map-bg.jpg);
   background-size: cover;
+  position: relative;
 }
 .map__pic {
   width: 100%;

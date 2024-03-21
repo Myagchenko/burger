@@ -587,8 +587,9 @@ button {
 .footer__item {
   display: flex;
 }
-.footer__item:hover {
+.footer__item :hover {
   opacity: 0.6;
+  transition: 0.3s;
 }
 .footer__adress {
   font-family: "Ubuntu";

@@ -38,10 +38,10 @@
 
   &__item {
     display: flex;
-  }
-
-  &__item:hover {
-    opacity: .6;
+    :hover {
+      opacity: .6;
+      transition: .3s;
+    }
   }
 
   &__adress {

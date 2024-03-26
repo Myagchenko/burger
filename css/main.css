@@ -401,3 +401,19 @@ button {
   max-width: 500px;
   color: #fff;
 }
+
+.youtube {
+  background-image: url("../img/section-bg/youtube-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.youtube__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.youtube__title {
+  color: black;
+  margin-bottom: 50px;
+}

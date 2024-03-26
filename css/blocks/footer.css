@@ -23,6 +23,7 @@
 }
 .footer__phone {
   color: #c7512e;
+  text-decoration: none;
   font-family: "Ubuntu";
   font-weight: bold;
 }
@@ -36,11 +37,11 @@
 .footer__item {
   display: flex;
 }
-.footer__item :hover {
+.footer__item:hover {
   opacity: 0.6;
   transition: 0.3s;
 }
-.footer__adress {
+.footer__address {
   font-family: "Ubuntu";
   font-weight: lighter;
   color: #fff;
@@ -49,5 +50,4 @@
 .footer__icons-svg {
   width: 25px;
   height: 25px;
-  opacity: 1;
 }

@@ -25,6 +25,7 @@
 
   &__phone {
     color: #c7512e;
+    text-decoration: none;
     font-family: 'Ubuntu';
     font-weight: bold;
   }
@@ -38,13 +39,14 @@
 
   &__item {
     display: flex;
-    :hover {
+
+    &:hover {
       opacity: .6;
       transition: .3s;
     }
   }
 
-  &__adress {
+  &__address {
     font-family: 'Ubuntu';
     font-weight: lighter;
     color: #fff;
@@ -54,7 +56,6 @@
   &__icons-svg {
     width: 25px;
     height: 25px;
-    opacity: 1;
   }
 
 

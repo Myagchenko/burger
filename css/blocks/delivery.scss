@@ -1,5 +1,5 @@
 .delivery{
-  background-image: url(../img/section-bg/form-bg.png);
+  background-image: url('../img/section-bg/form-bg.jpg');
   background-color: rgba(200,100,0,.5);
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,73 +13,5 @@
   &__title{
     display: flex;
     justify-content: center;
-  }
-
-  .form{
-    display: flex;
-    column-gap: 20px;
-
-    &__column{
-      color: #fff;
-      width: 50%;
-    }
-
-    &__row{
-      display: flex;
-      column-gap: 20px;
-      margin-bottom: 20px;
-    }
-
-    &__block{
-      width: 100%;
-    }
-
-    &__input{
-      width: 100%;
-      height: 40px;
-      border-radius: 5px;
-    }
-
-    &__comment{
-      width: 100%;
-      height: 120px;
-    }
-
-    &__order{
-      display: flex;
-      column-gap: 20px;
-    }
-
-    &__btn{
-      font-family: 'Ubuntu';
-    }
-
-    &__clear{
-      display: flex;
-      align-items: center;
-      background: none;
-      color: #fff;
-      font-family: 'Ubuntu';
-      font-weight: lighter;
-    }
-
-
-    &__radio{
-      font-family: 'Ubuntu';
-      font-weight: lighter;
-
-      &-item{
-        margin-right: 10px;
-      }
-    }
-
-    &__checkbox{
-      font-family: 'Ubuntu';
-      font-weight: lighter;
-
-      &-item{
-        margin-right: 10px;
-      }
-    }
   }
 }

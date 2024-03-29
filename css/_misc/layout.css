@@ -60,6 +60,12 @@ p {
   margin: 0;
 }
 
+input {
+  font-family: "Ubuntu";
+  font-weight: lighter;
+  padding-left: 10px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

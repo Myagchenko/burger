@@ -1,0 +1,15 @@
+.delivery {
+  background-image: url("../img/section-bg/form-bg.jpg");
+  background-color: rgba(200, 100, 0, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.delivery__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delivery__title {
+  display: flex;
+  justify-content: center;
+}

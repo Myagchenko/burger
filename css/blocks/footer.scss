@@ -1,0 +1,33 @@
+.footer{
+  background: black;
+  width: 100%;
+
+  &__container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item{
+    display: flex;
+    column-gap: 20px;
+  }
+
+  &__adress{
+    font-family: 'Ubuntu';
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 10px
+  }
+
+  &__icons-svg{
+    width: 25px;
+    height: 25px;
+  }
+
+}

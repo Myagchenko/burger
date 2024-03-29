@@ -51,7 +51,6 @@ body {
   width: 100%;
   max-width: 940px;
   margin: 0 auto;
-  flex-direction: column;
   height: 100%;
 }
 
@@ -439,8 +438,20 @@ button {
   display: flex;
   justify-content: center;
 }
-
-.form {
+.footer {
+  background: black;
+  width: 100%;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer__item {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
@@ -547,4 +558,14 @@ button {
 }
 .form__checkbox-item:checked + .form__checkbox-fake::before {
   opacity: 1;
+}
+.footer__adress {
+  font-family: "Ubuntu";
+  font-weight: lighter;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer__icons-svg {
+  width: 25px;
+  height: 25px;
 }

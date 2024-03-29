@@ -1,0 +1,53 @@
+.footer {
+  background: black;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+}
+.footer__number {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.footer__phone {
+  color: #c7512e;
+  text-decoration: none;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.footer__list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.footer__item {
+  display: flex;
+}
+.footer__item:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.footer__address {
+  font-family: "Ubuntu";
+  font-weight: lighter;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.footer__icons-svg {
+  width: 25px;
+  height: 25px;
+}

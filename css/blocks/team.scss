@@ -36,6 +36,9 @@
         display: flex;
       }
 
+      #{$root}__item-title{
+        color: #e7b247;
+      }
     }
   }
 
@@ -47,7 +50,7 @@
     border: 0;
     padding: 0;
     text-align: left;
-    color: #e7b247;
+    color: #fff;
     font-size: 14px;
     line-height: 28px;
   }

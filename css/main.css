@@ -204,7 +204,7 @@ button {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 30px;
-  column-gap: 30px;
+       column-gap: 30px;
 }
 .best__item {
   display: flex;
@@ -319,6 +319,9 @@ button {
 .team__item.is-active .team__item-content {
   display: flex;
 }
+.team__item.is-active .team__item-title {
+  color: #e7b247;
+}
 .team__item-title {
   display: inline-block;
   margin-bottom: 10px;
@@ -327,7 +330,7 @@ button {
   border: 0;
   padding: 0;
   text-align: left;
-  color: #e7b247;
+  color: #fff;
   font-size: 14px;
   line-height: 28px;
 }
@@ -335,7 +338,7 @@ button {
   display: none;
   flex-direction: row;
   -moz-column-gap: 20px;
-  column-gap: 20px;
+       column-gap: 20px;
 }
 .team__item-description {
   display: flex;
@@ -444,7 +447,7 @@ button {
 .form {
   display: flex;
   -moz-column-gap: 20px;
-  column-gap: 20px;
+       column-gap: 20px;
 }
 .form__column {
   color: #fff;
@@ -453,7 +456,7 @@ button {
 .form__row {
   display: flex;
   -moz-column-gap: 20px;
-  column-gap: 20px;
+       column-gap: 20px;
   margin-bottom: 20px;
 }
 .form__block {
@@ -470,7 +473,7 @@ button {
 .form__order {
   display: flex;
   -moz-column-gap: 20px;
-  column-gap: 20px;
+       column-gap: 20px;
 }
 .form__btn {
   font-family: "Ubuntu";
@@ -549,6 +552,7 @@ button {
 .form__checkbox-item:checked + .form__checkbox-fake::before {
   opacity: 1;
 }
+
 .footer {
   background: black;
   width: 100%;
@@ -570,7 +574,7 @@ button {
 .footer__number {
   display: flex;
   -moz-column-gap: 10px;
-  column-gap: 10px;
+       column-gap: 10px;
 }
 .footer__phone {
   color: #c7512e;
@@ -583,7 +587,7 @@ button {
   display: flex;
   justify-content: center;
   -moz-column-gap: 20px;
-  column-gap: 20px;
+       column-gap: 20px;
 }
 .footer__item {
   display: flex;
